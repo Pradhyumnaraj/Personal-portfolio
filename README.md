@@ -14,7 +14,7 @@ A clean, single-page developer portfolio showcasing skills, projects, and contac
 
 * **HTML5**
 * **CSS3** (Flexbox, CSS Grid, Custom Properties/Variables)
-* **Python** (Core Skill set)
+* **Python** 
 
 ## Project Setup
 
