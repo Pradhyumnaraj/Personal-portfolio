@@ -1,0 +1,113 @@
+:root {
+  --brand: #2563eb;
+  --ink: #6891f1;
+  --bg: #f7f2f2;
+  --surface: #fafafa;
+  --border: #0872fc;
+  --font-main: system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg);
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header & Flexbox Navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+nav a {
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--brand);
+}
+
+/* Layout Sections */
+main, footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+#about h1 {
+  font-size: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+
+#projects h2, footer h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+/* CSS Grid for Projects Section */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+
+/* Footer & Contact */
+#contact {
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contact-links a {
+  color: var(--brand);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Responsive Media Queries */
+@media (min-width: 640px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
