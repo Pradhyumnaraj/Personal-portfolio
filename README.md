@@ -23,4 +23,4 @@ A clean, single-page developer portfolio showcasing skills, projects, and contac
 
 ## Live Site
 
-View the live portfolio at: [https://Pradhyumnaraj.github.io/]([https://Pradhyumnaraj.github.io/](https://pradhyumnaraj.github.io/Personal-portfolio/))
+View the live portfolio at: (https://pradhyumnaraj.github.io/Personal-portfolio/)
